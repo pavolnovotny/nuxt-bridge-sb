@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     vite: true,
     nitro: true,
   },
+  storybook: {
+    port: 4000
+  },
   head: {
     title: 'nuxt-bridge-app',
     meta: [

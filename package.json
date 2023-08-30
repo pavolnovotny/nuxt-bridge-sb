@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "storybook:build": "nuxi storybook build",
+    "storybook:build": "nuxt storybook build",
+    "storybook": "nuxt storybook",
     "start": "nuxi preview"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
-    "@nuxtjs/storybook": "^4.3.1"
+    "@nuxtjs/storybook": "^4.3.1",
+    "vite": "^4.4.9"
   }
 }
